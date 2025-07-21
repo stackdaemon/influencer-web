@@ -1,0 +1,192 @@
+body {
+  background-color: #ebebeb;
+}
+.font-popins {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+.container2 {
+  max-width: 1110px;
+  margin: auto;
+}
+.container3 {
+  max-width: 1047px;
+  margin: auto;
+}
+.btn {
+  background-color: #e02c6d;
+  font-weight: bold;
+  border-radius: 41px;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+/* baner section */
+.search_bar {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: black;
+}
+
+/* Nav section */
+nav {
+  margin-top: 50px;
+}
+.nav,
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.nav_title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.nav_a {
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+  font-weight: 600;
+  margin-right: 34px;
+}
+
+/* Baner section */
+
+.baner_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: aquamarine; */
+  background-image: url("../images/rightbg.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 75px;
+  margin-bottom: 90px;
+}
+.baner_left {
+  max-width: 582px;
+  padding: 0px 10px;
+}
+.baner_left_title {
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.baner_left_description {
+  font-weight: 600;
+  color: #3a3a3a;
+}
+/* logo section */
+.logo_main {
+  border: 2px solid rgba(0, 0, 0, 0.045);
+  border-radius: 10px;
+}
+.logo_container {
+  display: flex;
+  gap: 60px;
+  padding: 36px 60px;
+}
+
+/* card section */
+.popular {
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.card_prent {
+  max-width: 304px;
+  height: 459px;
+  background-color: white;
+  padding: 14px;
+  border-radius: 10px;
+}
+.card_price {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.card_description {
+  max-width: 210px;
+  color: rgb(120, 120, 133);
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.card_child {
+  margin-top: -12px;
+}
+.popular_main_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.span {
+  text-align: end;
+  color: #e02c6d;
+  margin-top: 20px;
+}
+/* Feature section */
+
+.feature_container {
+  margin: 100px auto;
+  max-width: 1110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 96px;
+  /* background-color: aqua; */
+}
+.feature_container button {
+  border-radius: 0px;
+}
+.feature_description {
+  max-width: 501px;
+  color: rgba(108, 108, 108, 1);
+  font-weight: 600;
+}
+/* footer section */
+.footer {
+  max-width: 1280px;
+  margin: auto;
+  line-height: 12px;
+
+  background-color: #00008b;
+  text-align: center;
+  color: white;
+}
+
+.icon_container button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: rgb(171, 169, 169);
+  margin-right: 20px;
+}
+.hide{
+    display: none;
+}
+/* midea Queary */
+@media screen and (max-width:576px) {
+    .nav{
+        flex-direction: column;
+        
+    }
+    .baner_container{
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+
+}
