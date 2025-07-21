@@ -179,7 +179,7 @@ ul {
 }
 /* midea Queary */
 @media screen and (max-width:576px) {
-    .nav, .ul{
+    .nav, .ul,.logo_container,.feature_container {
         flex-direction: column;
        
     }
@@ -188,5 +188,7 @@ ul {
         align-items: center;
         
     }
-
+.popular_main_container{
+    grid-template-columns: repeat(1,1fr);
+}
 }
