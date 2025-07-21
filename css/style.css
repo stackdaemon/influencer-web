@@ -179,9 +179,9 @@ ul {
 }
 /* midea Queary */
 @media screen and (max-width:576px) {
-    .nav{
+    .nav, .ul{
         flex-direction: column;
-        
+       
     }
     .baner_container{
         flex-direction: column-reverse;
